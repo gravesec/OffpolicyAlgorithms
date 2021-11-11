@@ -34,11 +34,11 @@ This repository includes the code for the "empirical off-policy" paper.
 This code requires python 3.5 or above. Packages that are required for running the code are all in the `requirements.txt`
 file. To install these dependencies, run the following command if your pip is set to `python3.x`:
 ```text
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 otherwise, run:
 ```text
-pip3 install requirements.txt
+pip3 install -r requirements.txt
 ```
 
 
