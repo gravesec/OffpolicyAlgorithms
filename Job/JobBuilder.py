@@ -6,7 +6,7 @@ import time
 
 default_params = ImmutableDict(
     {
-        'agent': 'GEMETD',
+        'agent': 'TDRCEETD',
         'task': 'EightStateCollision',
         'environment': 'Chain',
         'exp': 'FirstChain',
@@ -24,14 +24,14 @@ default_params = ImmutableDict(
         'num_of_runs': 3,
         'num_steps': 20_000,
         'meta_parameters': {
-            'alpha': 0.001953125,
-            'eta': 16.0,
+            'alpha': 0.01,
+            'eta': 1,
             'beta': 0.9,
             'zeta': 0.9,
             'lmbda': 0.0,
             'tdrc_beta': 1.0,
-            'gem_alpha': 0.1,
-            'gem_beta': 0.1
+            'gem_alpha': 0.01,
+            'gem_beta': 0.0,
         }
     }
 )
